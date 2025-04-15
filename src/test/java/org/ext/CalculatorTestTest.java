@@ -27,7 +27,7 @@ class CalculatorTestTest {
     }
 
     @Test
-    void testSoustractionAvecZero() {
+    void SoustractionAvecZero() {
         CalculatorTest calculator = new CalculatorTest();
         int result = calculator.soustraction(0, 5);
         assertEquals(-5, result, "0 - 5 doit être égal à -5");
