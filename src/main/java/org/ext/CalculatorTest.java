@@ -17,6 +17,11 @@ public class CalculatorTest {
         if (aa == bb) { // Erreur : comparaison par référence au lieu de contenu
             System.out.println("Les chaînes sont égales.");
         }
+        String s = null;
+
+        if (s.length() > 0) { // Erreur : appel sur objet potentiellement null
+            System.out.println("Non vide");
+        }
         // Affiche un message de bienvenue
         System.out.println("Bienvenue dans le programme de test pour PMD!");
 
