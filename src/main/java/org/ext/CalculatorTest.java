@@ -11,6 +11,12 @@ public class CalculatorTest {
      * @param args arguments passés en ligne de commande
      */
     public static void main(String[] args) {
+        String aa = new String("test");
+        String bb = new String("test");
+
+        if (aa == bb) { // Erreur : comparaison par référence au lieu de contenu
+            System.out.println("Les chaînes sont égales.");
+        }
         // Affiche un message de bienvenue
         System.out.println("Bienvenue dans le programme de test pour PMD!");
 
