@@ -1,4 +1,6 @@
-package org.ext;
+package monpackage;
+
+import org.ext.OperationsMathematiques;
 
 /**
  * @author Sébastien Choplin <sebastien.choplin@webadvise.fr>
